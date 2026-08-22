@@ -359,6 +359,10 @@ body.drawer-open,body.no-scroll{overflow:hidden}
   position:relative;overflow:hidden;clip-path:inset(0 0 100% 0);background:var(--pedra-2);
   aspect-ratio:4/3;display:block;width:100%;
 }
+@media (min-width:768px){
+  .fotos{grid-template-columns:repeat(4,1fr);gap:clamp(.35rem,.8vw,.55rem)}
+  .foto{width:97.5%;margin:0 auto}
+}
 .foto.is-in{clip-path:inset(0 0 0 0);transition:clip-path 1000ms cubic-bezier(.65,0,.35,1)}
 .foto img{
   position:absolute;inset:0;z-index:0;display:block;
