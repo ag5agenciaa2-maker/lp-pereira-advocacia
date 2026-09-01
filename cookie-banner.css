@@ -94,14 +94,6 @@
     min-width: 0;
 }
 
-.ck-banner__title {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--ck-accent);
-    margin-bottom: 2px;
-    line-height: 1.3;
-}
-
 .ck-banner__text {
     font-size: 0.85rem;
     color: var(--ck-text-muted);
@@ -240,6 +232,7 @@
     justify-content: space-between;
     gap: 12px;
     padding: 14px 18px 11px;
+    background: var(--ck-bg);
     border-bottom: 1px solid var(--ck-modal-border);
     background: var(--ck-bg);
 }
@@ -247,7 +240,7 @@
 .ck-modal__title {
     font-size: 0.88rem;
     font-weight: 600;
-    color: var(--ck-accent);
+    color: var(--ck-text-primary);
     margin: 0;
     line-height: 1.3;
 }
